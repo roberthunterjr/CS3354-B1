@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b729c24c-b209-4c1a-8f1c-ae778e93b6b6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/calendar/Appointment.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/calendar/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/calendar/calendarBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3354B1/PeopleGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3354B1/ThreeQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/threeq/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PeopleGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/threeq/PeopleGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/threeq/QManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/threeq/ThreeQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calendar/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calendar/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calendar/calendarBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calendar/calendarBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,28 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2257#2258#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2875#2876#0" expanded="true" />
+                <element signature="e#2907#2908#0" expanded="true" />
+                <element signature="e#3743#3744#0" expanded="true" />
+                <element signature="e#3786#3787#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Appointment.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="calendarBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendarBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/calendar/calendarBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+            <state relative-caret-position="331">
+              <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11478#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -126,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/ThreeQ.java" />
         <option value="$PROJECT_DIR$/src/QManager.java" />
         <option value="$PROJECT_DIR$/src/com/threeq/ThreeQ.java" />
-        <option value="$PROJECT_DIR$/src/com/calendar/calendarBean.java" />
         <option value="$PROJECT_DIR$/src/com/calendar/Appointment.form" />
+        <option value="$PROJECT_DIR$/src/com/calendar/calendarBean.java" />
         <option value="$PROJECT_DIR$/src/com/calendar/Appointment.java" />
       </list>
     </option>
@@ -257,18 +249,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49895832" weight="0.32976654" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4984375" weight="0.32976654" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.32976654" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.39980546" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.40989584" weight="0.32976654" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.409375" weight="0.32976654" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.13177083" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49895832" weight="0.32976654" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="0" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49947917" weight="0.39980546" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -282,13 +274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/threeq/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/threeq/PeopleGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -329,23 +314,36 @@
     <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/threeq/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/calendar/calendarBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+        <state relative-caret-position="331">
+          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
           <folding>
             <element signature="e#0#11478#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2875#2876#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3786#3787#0" expanded="true" />
           </folding>
         </state>
       </provider>

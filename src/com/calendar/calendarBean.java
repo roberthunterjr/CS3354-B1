@@ -147,6 +147,7 @@ public class calendarBean extends JPanel {
                     // System.out.println("Month=" + mm);
                     recompute();
                 }
+
             }
         });
         monthChoice.getAccessibleContext().setAccessibleName("Months");
@@ -193,6 +194,8 @@ public class calendarBean extends JPanel {
                     // fire some kind of DateChanged event here.
                     // Also, build a similar daySetter for day-of-week btns.
                 }
+                Appointment.AppointmentController.updateCurrentDate(yy+":"+mm+":"+dd);
+                //  System.out.println("Command" + e.getActionCommand() + thisMonth);
             }
         };
 
@@ -214,6 +217,7 @@ public class calendarBean extends JPanel {
     /** Compute which days to put where, in the calendarBean panel */
     protected void recompute() {
         // System.out.println("calendarBean::recompute: " + yy + ":" + mm + ":" + dd);
+        Appointment.AppointmentController.updateCurrentDate(yy+":"+mm+":"+dd);
         if (mm < 0 || mm > 11)
             throw new IllegalArgumentException("Month " + mm
                     + " bad, must be 0-11");
