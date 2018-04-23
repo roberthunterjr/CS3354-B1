@@ -1,3 +1,5 @@
+package com.threeq;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -112,7 +114,7 @@ public class QManager {
         private int rushTimeLimit = 2 * 6 * 1000; // Time 2 min in milliseconds
         private int criticalTimeLimit = 3 * 1000; // Time 30 seconds in milliseconds
         public Checker(LineQ line, LineQ output) {
-            this.name = line.name + " Checker";
+            this.name = line.name + " com.threeq.Checker";
             this.currentTimeLimit = this.normalTimeLimit;
             this.line = line;
             this.output = output;

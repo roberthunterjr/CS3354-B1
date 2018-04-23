@@ -1,3 +1,5 @@
+package com.threeq;
+
 public class ThreeQ {
     public static void main(String[] args) {
         System.out.println("Hello World");

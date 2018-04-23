@@ -1,3 +1,4 @@
+package com.threeq;
 
 public class PeopleGen implements Runnable {
     private Thread t;
@@ -27,8 +28,8 @@ public class PeopleGen implements Runnable {
     }
 
     public void start() {
-        System.out.println("Starting the PeopleGen");
-        this.t = new Thread(this, "PeopleGen");
+        System.out.println("Starting the com.threeq.PeopleGen");
+        this.t = new Thread(this, "com.threeq.PeopleGen");
         t.start();
     }
 }
