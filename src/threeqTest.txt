@@ -1,0 +1,206 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=53860:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar:/Users/roberthunter/IdeaProjects/3354B1/out/production/3354B1 com.threeq.ThreeQ
+Hello World
+Created People Gen Thread for 20 people
+Starting the com.threeq.PeopleGen
+Running the People Gen
+Second Line Empty....waiting
+Person 1 spawned
+Adding Person 1 to Second Line
+Person 2 spawned
+Adding Person 2 to First Line
+Person 3 spawned
+Adding Person 3 to First Line
+Removing Person 1 from line Second Line
+Adding Person 1 to FinalLine
+Second Line Capacity at 0 out of 10
+Second Line Empty....waiting
+Person 4 spawned
+Adding Person 4 to Second Line
+Person 5 spawned
+Adding Person 5 to Second Line
+Person 6 spawned
+Adding Person 6 to Second Line
+Person 7 spawned
+Adding Person 7 to Second Line
+Removing Person 2 from line First Line
+Adding Person 2 to FinalLine
+First Line Capacity at 1 out of 20
+Person 8 spawned
+Adding Person 8 to First Line
+Person 9 spawned
+Adding Person 9 to Second Line
+Removing Person 1 from line FinalLine
+Adding Person 1 to CompletedLine
+1 out of 20 people successfully processed
+FinalLine Capacity at 1 out of 20
+Person 10 spawned
+Adding Person 10 to First Line
+Person 11 spawned
+Adding Person 11 to First Line
+Person 12 spawned
+Adding Person 12 to Second Line
+Person 13 spawned
+Adding Person 13 to Second Line
+Person 14 spawned
+Adding Person 14 to First Line
+Person 15 spawned
+Adding Person 15 to Second Line
+Person 16 spawned
+Adding Person 16 to Second Line
+Person 17 spawned
+Adding Person 17 to Second Line
+Person 18 spawned
+Adding Person 18 to First Line
+Removing Person 3 from line First Line
+Adding Person 3 to FinalLine
+First Line Capacity at 5 out of 20
+Person 19 spawned
+Adding Person 19 to First Line
+Person 20 spawned
+Adding Person 20 to First Line
+People generation completed
+Removing Person 4 from line Second Line
+Adding Person 4 to FinalLine
+Second Line Capacity at 9 out of 10
+Removing Person 5 from line Second Line
+Adding Person 5 to FinalLine
+Second Line Capacity at 8 out of 10
+Removing Person 2 from line FinalLine
+Adding Person 2 to CompletedLine
+2 out of 20 people successfully processed
+FinalLine Capacity at 3 out of 20
+Removing Person 3 from line FinalLine
+Adding Person 3 to CompletedLine
+3 out of 20 people successfully processed
+FinalLine Capacity at 2 out of 20
+Removing Person 8 from line First Line
+Adding Person 8 to FinalLine
+First Line Capacity at 6 out of 20
+Removing Person 4 from line FinalLine
+Adding Person 4 to CompletedLine
+4 out of 20 people successfully processed
+FinalLine Capacity at 2 out of 20
+Removing Person 6 from line Second Line
+Adding Person 6 to FinalLine
+Second Line Capacity at 7 out of 10
+Removing Person 5 from line FinalLine
+Adding Person 5 to CompletedLine
+5 out of 20 people successfully processed
+FinalLine Capacity at 2 out of 20
+Removing Person 10 from line First Line
+Adding Person 10 to FinalLine
+First Line Capacity at 5 out of 20
+Removing Person 8 from line FinalLine
+Adding Person 8 to CompletedLine
+6 out of 20 people successfully processed
+FinalLine Capacity at 2 out of 20
+Removing Person 11 from line First Line
+Adding Person 11 to FinalLine
+First Line Capacity at 4 out of 20
+Removing Person 7 from line Second Line
+Adding Person 7 to FinalLine
+Second Line Capacity at 6 out of 10
+Removing Person 6 from line FinalLine
+Adding Person 6 to CompletedLine
+7 out of 20 people successfully processed
+FinalLine Capacity at 3 out of 20
+Removing Person 14 from line First Line
+Adding Person 14 to FinalLine
+First Line Capacity at 3 out of 20
+Removing Person 18 from line First Line
+Adding Person 18 to FinalLine
+First Line Capacity at 2 out of 20
+Removing Person 19 from line First Line
+Adding Person 19 to FinalLine
+First Line Capacity at 1 out of 20
+Removing Person 9 from line Second Line
+Adding Person 9 to FinalLine
+Second Line Capacity at 5 out of 10
+Removing Person 20 from line First Line
+Adding Person 20 to FinalLine
+First Line Capacity at 0 out of 20
+Removing Person 12 from line Second Line
+Adding Person 12 to FinalLine
+Second Line Capacity at 4 out of 10
+Removing Person 10 from line FinalLine
+Adding Person 10 to CompletedLine
+8 out of 20 people successfully processed
+FinalLine Capacity at 8 out of 20
+First Line Empty....waiting
+First Line Empty....waiting
+Removing Person 11 from line FinalLine
+Adding Person 11 to CompletedLine
+9 out of 20 people successfully processed
+FinalLine Capacity at 7 out of 20
+Removing Person 7 from line FinalLine
+Adding Person 7 to CompletedLine
+10 out of 20 people successfully processed
+FinalLine Capacity at 6 out of 20
+Removing Person 13 from line Second Line
+Adding Person 13 to FinalLine
+Second Line Capacity at 3 out of 10
+Removing Person 15 from line Second Line
+Adding Person 15 to FinalLine
+Second Line Capacity at 2 out of 10
+Removing Person 14 from line FinalLine
+Adding Person 14 to CompletedLine
+11 out of 20 people successfully processed
+FinalLine Capacity at 7 out of 20
+Removing Person 16 from line Second Line
+Adding Person 16 to FinalLine
+Second Line Capacity at 1 out of 10
+First Line Empty....waiting
+Removing Person 18 from line FinalLine
+Adding Person 18 to CompletedLine
+12 out of 20 people successfully processed
+FinalLine Capacity at 7 out of 20
+Removing Person 17 from line Second Line
+Adding Person 17 to FinalLine
+Second Line Capacity at 0 out of 10
+Second Line Empty....waiting
+Removing Person 19 from line FinalLine
+Adding Person 19 to CompletedLine
+13 out of 20 people successfully processed
+FinalLine Capacity at 7 out of 20
+First Line Empty....waiting
+Removing Person 9 from line FinalLine
+Adding Person 9 to CompletedLine
+14 out of 20 people successfully processed
+FinalLine Capacity at 6 out of 20
+First Line Empty....waiting
+Second Line Empty....waiting
+Second Line Empty....waiting
+First Line Empty....waiting
+Removing Person 20 from line FinalLine
+Adding Person 20 to CompletedLine
+15 out of 20 people successfully processed
+FinalLine Capacity at 5 out of 20
+Removing Person 12 from line FinalLine
+Adding Person 12 to CompletedLine
+16 out of 20 people successfully processed
+FinalLine Capacity at 4 out of 20
+Second Line Empty....waiting
+First Line Empty....waiting
+First Line Empty....waiting
+Removing Person 13 from line FinalLine
+Adding Person 13 to CompletedLine
+17 out of 20 people successfully processed
+FinalLine Capacity at 3 out of 20
+First Line Empty....waiting
+Second Line Empty....waiting
+Removing Person 15 from line FinalLine
+Adding Person 15 to CompletedLine
+18 out of 20 people successfully processed
+FinalLine Capacity at 2 out of 20
+Removing Person 16 from line FinalLine
+Adding Person 16 to CompletedLine
+19 out of 20 people successfully processed
+FinalLine Capacity at 1 out of 20
+Removing Person 17 from line FinalLine
+Adding Person 17 to CompletedLine
+20 out of 20 people successfully processed
+FinalLine Capacity at 0 out of 20
+First Line Empty....waiting
+Second Line Empty....waiting
+
+Process finished with exit code 0
