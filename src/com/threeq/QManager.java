@@ -39,6 +39,11 @@ public class QManager {
             this.secondLine.addToLine(person);
         }
     }
+
+    /**
+     * Class that maintains people (strings) in the line
+     * Utilize Queue datastructure with Linklist instantiated
+     */
     private class LineQ {
         private int capacity;
         private int count;
@@ -85,6 +90,10 @@ public class QManager {
         }
     }
 
+    /**
+     * Special class extends LineQ to handle complete condition which triggers running to change to false
+     */
+
     private class CompletedLineQ extends LineQ {
         public CompletedLineQ(int capacity) {
             super("CompletedLine", capacity);
@@ -104,6 +113,10 @@ public class QManager {
             return true;
         }
     }
+
+    /**
+     * Checker Class used to manage the tasks of each queue. Executed on separate threads
+     */
     private class Checker implements Runnable{
         private Thread t;
         private LineQ line;

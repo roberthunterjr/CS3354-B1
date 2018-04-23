@@ -72,6 +72,10 @@ public class Appointment {
         f.setVisible(true);
     }
 
+    /**
+     * Controller used to manage the appointment window and state of application
+     */
+
     public static class AppointmentController {
         private static String stateCurrentDate;
         private static HashMap storage;
@@ -108,6 +112,9 @@ public class Appointment {
         }
     }
 
+    /**
+     * Document Listener used to listen for changes from notes window
+     */
     public static class handleTextChange implements DocumentListener {
         JTextArea target;
         handleTextChange(JTextArea target){
