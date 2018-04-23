@@ -1,12 +1,11 @@
-import java.util.concurrent.Callable;
 
 public class PeopleGen implements Runnable {
     private Thread t;
     private int numPeople;
-    private Callable task;
-    PeopleGen(int numPeople, Callable task ) {
-        this.task = task;
+    private QManager lineManager;
+    PeopleGen(int numPeople) {
         this.numPeople = numPeople;
+        lineManager = new QManager(numPeople);
         System.out.println("Created People Gen Thread for " + numPeople + " people");
     }
 
@@ -14,10 +13,11 @@ public class PeopleGen implements Runnable {
         System.out.println("Running the People Gen");
         int i = 1;
         while(i <= numPeople) {
-            int random = (int)(12000* Math.random() + 2000);
+            int random = ((int) (4 * 1000 * Math.random())) + 2000;
             try {
                 Thread.sleep(random);
                 System.out.println("Person " + i + " spawned");
+                this.lineManager.addToQueue("Person " + i);
                 i++;
             } catch (InterruptedException e) {
                 e.printStackTrace();
