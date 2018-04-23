@@ -83,12 +83,12 @@ public class Appointment {
         }
 
         public static void updateCurrentDate(String date) {
-            System.out.println("State updated with "+date);
+            // System.out.println("State updated with "+date);
             stateCurrentDate = date;
             updateNotesDisplayArea();
         }
         public static void updateCurrentEvent(String notes) {
-            System.out.println("Current date is "+stateCurrentDate);
+            // System.out.println("Current date is "+stateCurrentDate);
             storage.put(stateCurrentDate, notes);
 //            updateNotesDisplayArea();
         }
@@ -115,13 +115,13 @@ public class Appointment {
         }
         @Override
         public void insertUpdate(DocumentEvent e) {
-            System.out.println("insertTextChange" + target.getText());
+            // System.out.println("insertTextChange" + target.getText());
             AppointmentController.updateCurrentEvent("" + target.getText());
         }
 
         @Override
         public void removeUpdate(DocumentEvent e) {
-            System.out.println("removeTextChange" + target.getText());
+            // System.out.println("removeTextChange" + target.getText());
             AppointmentController.updateCurrentEvent("" + target.getText());
         }
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b729c24c-b209-4c1a-8f1c-ae778e93b6b6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/calendar/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calendar/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/calendar/calendarBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calendar/calendarBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2257#2258#0" expanded="true" />
@@ -252,9 +251,9 @@
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4984375" weight="0.32976654" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.39980546" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.5911458" side_tool="true" visible="true" weight="0.32976654" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.409375" weight="0.32976654" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.40885416" visible="true" weight="0.32976654" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.13177083" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49895832" weight="0.32976654" />
@@ -334,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/calendar/Appointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2257#2258#0" expanded="true" />
